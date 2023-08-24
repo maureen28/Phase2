@@ -3,10 +3,11 @@ const Pro =()=> {
     let score = 20;
     const GoodTeam =(props)=>{
         console.log(props)
-
+// Destructuring props
+let {team, score} = props
     return(
         <>
-        {/* <p>{team} is good</p>  */}
+        <p>{team} is good and scored {score}</p>
         <p>{props.team} is good and scored {props.score}</p>
         </>
     )

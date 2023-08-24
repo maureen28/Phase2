@@ -1,6 +1,7 @@
 class Vehicle1 extends React.Component{
     constructor(props){
         super()
+    
     }
     render(){
         return <Car name ={'Ferrari'}/>
